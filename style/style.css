@@ -23,10 +23,19 @@ nav {
     align-items: center;
 }
 
+header {
+    background-color: rgba(0, 255, 255, 0.295);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* NAV */
 
 nav div {
-    min-height: 75px; /*NON FUNZIONA 75%?!*/
+    height: 75px; /*NON FUNZIONA 75%?!*/
     margin: var(--space-sm) 0;
 }
 
@@ -50,8 +59,10 @@ nav div {
 
 /* HEADER */
 
-header {
-    background-color: rgba(0, 255, 255, 0.295);
-    min-height: 400px;
-    
+header section {
+    flex-basis: 40%;
+    background-color: gold;
+    height: 250px;
 }
+
+/* MAIN */
