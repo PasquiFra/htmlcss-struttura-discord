@@ -31,6 +31,9 @@ header {
     justify-content: center;
 }
 
+main {
+    background-color: gray;
+}
 
 /* NAV */
 
@@ -66,3 +69,43 @@ header section {
 }
 
 /* MAIN */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 750px;
+}
+
+main section {
+    height: 500px;
+    flex-basis: 70%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: flex-start;   
+}
+
+section .img {
+    flex-basis: 60%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+section .about {
+    flex-basis: 40%;
+    height: 100%;
+    background-color: rgb(207, 128, 23);
+}
+
+.bkg-lightgray {
+    background-color: lightgray;
+}
+
+#about-final {
+   height: 1000px;
+}
+
+.about-final {
+    height: 750px ;
+}
+
