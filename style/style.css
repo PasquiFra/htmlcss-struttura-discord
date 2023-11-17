@@ -1,5 +1,9 @@
 /* ------------ CSS PROPERTIES ------------*/
-
+:root {
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+}
 
 
 /* ------------ CSS RESET ------------*/
@@ -11,5 +15,43 @@
 
 
 /* ------------ UTILITIES ------------ */
+nav {
+    min-height: 100px;
+    display: flex;
+    background-color: dodgerblue;
+    justify-content:center;
+    align-items: center;
+}
 
+/* NAV */
 
+nav div {
+    min-height: 75px; /*NON FUNZIONA 75%?!*/
+    margin: var(--space-sm) 0;
+}
+
+.logo {
+    text-align: left;
+    background-color: goldenrod;
+    flex-basis: 15%;
+}
+
+.nav-links {
+    text-align: center;
+    background-color: rgb(136, 103, 19);
+    flex-basis: 40%;
+}
+
+.login {
+    text-align: right;
+    background-color: rgb(231, 194, 99);
+    flex-basis: 15%;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgba(0, 255, 255, 0.295);
+    min-height: 400px;
+    
+}
