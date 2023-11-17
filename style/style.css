@@ -5,14 +5,12 @@
     --space-lg: 2rem;
 }
 
-
 /* ------------ CSS RESET ------------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /* ------------ UTILITIES ------------ */
 nav {
@@ -35,8 +33,15 @@ main {
     background-color: gray;
 }
 
-/* NAV */
+footer {
+    background-color: rgb(117, 21, 21);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
 
+/* NAV */
 nav div {
     height: 75px; /*NON FUNZIONA 75%?!*/
     margin: var(--space-sm) 0;
@@ -61,7 +66,6 @@ nav div {
 }
 
 /* HEADER */
-
 header section {
     flex-basis: 40%;
     background-color: gold;
@@ -69,15 +73,14 @@ header section {
 }
 
 /* MAIN */
-
-.main-container {
+main > div {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 750px;
 }
 
-main section {
+.main-container {
     height: 500px;
     flex-basis: 70%;
     background-color: lightgreen;
@@ -105,7 +108,34 @@ section .about {
    height: 1000px;
 }
 
-.about-final {
+#about-final .main-container {
     height: 750px ;
 }
 
+/* FOOTER */ 
+
+.footer-container {
+    height: 200px;
+    flex-basis: 70%;
+    background-color: rgb(0, 61, 0);
+    display: flex;
+
+}
+
+#about-company {
+    height: 750px;
+    background-color: black;
+    border-bottom: 1px solid #fff;
+}
+
+#social {
+    flex-basis: 40%;
+    background-color: antiquewhite;
+    border: none
+}
+.navigazione {
+    flex-basis: 15%;
+    background-color: #fff;
+    height: 100%;
+    border: 1px solid blue;
+}
