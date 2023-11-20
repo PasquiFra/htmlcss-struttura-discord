@@ -13,6 +13,11 @@
 }
 
 /* ------------ UTILITIES ------------ */
+
+/*
+
+BEST PRACTISES
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -21,6 +26,12 @@
 .flex {
     display: flex;
 }
+
+.flex.reverse {
+    flex-direction: row-reverse;
+}
+
+*/
 
 .bkg-lightgray {
     background-color: lightgray;
